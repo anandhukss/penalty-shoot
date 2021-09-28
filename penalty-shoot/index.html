@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shootout</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="teams">
+        <div class="team1">
+          <img src="fcb.png" alt="fcb-logo" />
+          <h2 class="team-name">FC Barcelona</h2>
+          <div class="shoots" id="team1-goals">
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+        <div id="score" class="score">
+          <h1><span id="team1-score"></span>-<span id="team2-score"></span></h1>
+        </div>
+        <div class="team2">
+          <img src="rm.png" alt="real-madrid logo" />
+          <h2 class="team-name">Real Madrid</h2>
+          <div class="shoots" id="team2-goals">
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="results">
+        <button id="btn"></button>
+        <p id="winner"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
